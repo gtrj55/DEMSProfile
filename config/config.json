@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "demsprofilermg-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/demsprofilermg/DemsprofilermgWebPart.js",
+          "manifest": "./src/webparts/demsprofilermg/DemsprofilermgWebPart.manifest.json"
+        }
+      ]
+    },
+    "adminpage-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/adminpage/AdminpageWebPart.js",
+          "manifest": "./src/webparts/adminpage/AdminpageWebPart.manifest.json"
+        }
+      ]
+    },
+    "sitemap-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sitemap/SitemapWebPart.js",
+          "manifest": "./src/webparts/sitemap/SitemapWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js"
+  },
+  "localizedResources": {
+    "DemsprofilermgWebPartStrings": "lib/webparts/demsprofilermg/loc/{locale}.js",
+    "AdminpageWebPartStrings": "lib/webparts/adminpage/loc/{locale}.js",
+    "SitemapWebPartStrings": "lib/webparts/sitemap/loc/{locale}.js"
+  }
+}

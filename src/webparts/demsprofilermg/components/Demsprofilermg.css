@@ -1,0 +1,81 @@
+.controlStyles {
+  margin-right: 10px !important;
+  margin-left: auto !important;
+  text-align: right !important;
+  min-width: 300px !important;
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  border: 1px solid #D3D3D3 !important;
+  border-radius: 6px !important;
+}
+
+.tabrow .ms-List-cell {
+  border-bottom: 1px solid #00000012;
+}
+
+.tabrow .ms-DetailsList-headerWrapper span.ms-DetailsHeader-cellName {
+  font-weight: 500;
+  /* overflow-y:scroll; */
+}
+.tabrow .disa-linkdetailslist{
+height:400px;
+width:100%;
+overflow-y:auto; 
+margin-top: 10px;
+}
+.tabrow .ms-DetailsHeader{
+ border-top: 1px solid #00000012;
+ border-bottom: 1px solid #00000012;
+ padding: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+ width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+ background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+ background: #2A74B3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+ background: #555;
+}
+.scrollbarStyleInner {
+  overflow-y: auto;
+  overflow-x: hidden;
+ height: 550px !important;  
+}
+.upload{
+ margin-top: 20px;
+ margin-bottom: 20px;
+ height:300px;
+}
+.uploadProgress {
+ font: normal normal bold 18px/22px Montserrat;
+ letter-spacing: 0px;
+ color: #707070;
+ opacity: 1;
+ margin-left:10%;
+}
+.rmgdetailed .is-selected::before{
+ border-bottom: 2px solid #2A74B3 !important;
+}
+.rmgdetailed .is-selected .ms-Pivot-text{
+ color:#2A74B3 !important;
+}
+.ms-DetailsRow-cell, .ms-DetailsHeader-cell{
+  width:200px!important;
+}
+input[type="button"]:disabled {
+  background: #838a91bd;
+}
+.ms-DetailsList-contentWrapper{
+  overflow: hidden!important;
+}
